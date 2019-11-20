@@ -2435,7 +2435,7 @@ label.label_text input, .form_box select {
     padding: 0 15px !important;
 }
 
-.form_box select {
+.form_box .form-group.flex_group select {
     height: 35px;
     margin: 10px 5px !important;
 }
