@@ -2450,6 +2450,10 @@ label.label_text input, .form_box select {
 	height: 70px;
 }
 
+label.label_text input[type="tel"] {
+    padding-left: 36% !important;
+}
+
 }
 
 
