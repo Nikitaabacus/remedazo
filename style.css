@@ -2190,7 +2190,9 @@ label.label_text {
     width: 100%;
 }
 
-
+.form-group.flex_group {
+    position: relative;
+}
 
 .form-group.flex_group select {
     position: absolute;
