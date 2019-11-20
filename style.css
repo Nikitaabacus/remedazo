@@ -2465,6 +2465,21 @@ label.label_text input[type="tel"] {
     font-size: 50px;
 }
 
+section.home--hero.opinion_banner a.btn--rounded.fill-outline {
+    font-size: 24px;
+    max-width: 376px;
+}
+
+section.home--hero.opinion_banner .left_content p {
+    font-size: 30px;
+    padding: 0 16px 40px;
+    line-height: 40px;
+}
+
+section.home--hero.opinion_banner .left_content p.icon {
+    top: 50px;
+}
+
 }
 
 
