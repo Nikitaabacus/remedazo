@@ -2461,7 +2461,7 @@ label.label_text input[type="tel"] {
     line-height: 80px;
 }
 
-.second_opinion .free_txt h3 {
+.second_opinion section.page--faq .free_txt h3 {
     font-size: 50px;
 }
 
