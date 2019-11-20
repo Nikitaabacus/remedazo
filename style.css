@@ -2153,6 +2153,7 @@ section#booking h3 {
 label.label_text input {
     width: 100%;
     font-weight: 400;
+    height: 55px;
 }
 
 label.label_text input[type="tel"] {
@@ -2633,6 +2634,7 @@ section.home--hero.opinion_banner .left_content p.icon {
 .form_box .submit_btn input {
     padding: 15px !important;
     width: 70%;
+    height: 60px;
 }
 
 section#callback .col-sm-5, section#callback .col-sm-7 {
