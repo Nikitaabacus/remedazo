@@ -2429,7 +2429,7 @@ section.just_click p strong {
     font-size: 18px;
 }
 
-label.label_text input, label.label_text select {
+label.label_text input, .form_box select {
     font-size: 24px;
 }
 
