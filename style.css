@@ -2433,6 +2433,10 @@ label.label_text input, label.label_text select {
     font-size: 24px;
 }
 
+.form_box input:not(:focus):placeholder-shown + span {
+    line-height: 80px;
+}
+
 }
 
 
