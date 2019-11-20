@@ -2456,6 +2456,11 @@ label.label_text input[type="tel"] {
     padding-left: 36% !important;
 }
 
+.callback_content h4 {
+    font-size: 60px;
+    line-height: 70px;
+}
+
 }
 
 
