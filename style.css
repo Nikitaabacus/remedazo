@@ -2431,10 +2431,23 @@ section.just_click p strong {
 
 label.label_text input, .form_box select {
     font-size: 24px;
+    height: 55px;
+    padding: 0 15px !important;
+}
+
+.form_box select {
+    height: 35px;
+    margin: 10px 5px !important;
 }
 
 .form_box input:not(:focus):placeholder-shown + span {
-    line-height: 80px;
+    line-height: 70px;
+}
+
+.form_box .submit_btn input {
+    font-size: 24px;
+    width: 304px;
+	height: 70px;
 }
 
 }
