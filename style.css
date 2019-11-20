@@ -2227,7 +2227,7 @@ section#callback {
     border: 2px solid rgba(96, 191, 195, 1);
     border-radius: 10px;
     text-align: center;
-    padding: 50px;
+    padding: 50px 75px;
 }
 
 .callback_content h4 {
