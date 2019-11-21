@@ -171,5 +171,9 @@ else {}
 	  </div>  
 	 </div>
 	</nav>
+	<!-- Mobile Menu start here -->
+	<ul class="cd-header-buttons">
+		<li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
+	</ul> 
 </header>
 <!-- Header end here -->
