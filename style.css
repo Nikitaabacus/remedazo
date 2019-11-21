@@ -2695,6 +2695,25 @@ section#callback .col-sm-5, section#callback .col-sm-7 {
 
 }
 
+@media screen and (min-width:769px) and (max-width:1023px) {
+	
+div#collapsibleNavbar ul.navbar-nav li.nav-item:first-child, div#collapsibleNavbar ul.navbar-nav li.nav-item:first-child a {
+    padding-left: 23px;
+}
+
+div#collapsibleNavbar ul.navbar-nav {
+    flex-flow: column;
+}
+
+ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
+    padding: 0 23px !important;
+}
+.cd-primary-nav .go-back a::before, .cd-primary-nav .go-back a::after {
+    left: 10px;
+}
+	
+}
+
 @media only screen and (max-width: 768px) {
 	
 a.navbar-brand img {
