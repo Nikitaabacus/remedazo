@@ -2695,7 +2695,7 @@ section#callback .col-sm-5, section#callback .col-sm-7 {
 
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
 	
 .full_screen {
     display: none;
@@ -2706,6 +2706,7 @@ section#callback .col-sm-5, section#callback .col-sm-7 {
 }
 	
 }
+
 
 @media only screen and (max-width: 768px) {
 	
@@ -2953,6 +2954,15 @@ span.visitor-info {
 
 .sub--sec-header h3 br{
     display:none;
+}
+
+
+.full_screen {
+    display: none;
+}
+
+.small_screen {
+    display: block;
 }
 	
 h3 {
