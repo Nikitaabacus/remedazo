@@ -40,8 +40,11 @@ else {}
 <link href="<?php echo BASE_URL_ROOT; ?>css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo BASE_URL_ROOT; ?>css/style.css" rel="stylesheet" type="text/css" media="all" />
 
-<!-- Mobile menu style files here -->
+<!-- Mobile menu style file here -->
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo BASE_URL_ROOT; ?>css/menu_style.css" />
+
+
+
 
 <!--<link href="style.css" rel="stylesheet" type="text/css" media="all" />-->
 <link href="<?php echo BASE_URL_ROOT; ?>mainstyle.css" rel="stylesheet" type="text/css" media="all" />
@@ -65,8 +68,8 @@ else {}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<header class="main_header cd-main-header">
-  
+<header class="main_header">
+
 	<!-- Top bar nav -->
 		<!-- Full Screen -->
 		<div class="top_header full_screen">
@@ -119,11 +122,6 @@ else {}
 		  </div>
 		</div>
 	<!-- Main nav -->
-	<main class="cd-main-content">
-		<!-- your content here -->
-		
-		<div class="cd-overlay"></div>
-	</main>
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 	 <div class="container">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -165,7 +163,7 @@ else {}
 				  </li>
 				</ul>
 			</div>
-		  
+
 		  <li class="nav-item login_btn">
 			<a class="nav-link" href="#">Login</a>
 		  </li>
@@ -173,69 +171,5 @@ else {}
 	  </div>  
 	 </div>
 	</nav>
-<nav class="cd-nav">
-		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
-			<li class="has-children">
-				<a href="#">Clothing</a>
-
-				<ul class="cd-secondary-nav is-hidden">
-					<li class="go-back"><a href="#0">Menu</a></li>
-					<li class="see-all"><a href="#">All Clothing</a></li>
-					<li class="has-children">
-						<a href="#">Accessories</a>
-
-						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Clothing</a></li>
-						</ul>
-					</li>
-
-					<li class="has-children">
-						<a href="#">Bottoms</a>
-
-						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Clothing</a></li>
-						</ul>
-					</li>
-
-					<li class="has-children">
-						<a href="#">Jackets</a>
-
-						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Clothing</a></li>
-						</ul>
-					</li>
-
-					<li class="has-children">
-						<a href="#">Tops</a>
-
-						<ul class="is-hidden">
-							<li class="go-back"><a href="#0">Clothing</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-
-			<li class="has-children">
-				<a href="#">Gallery</a>
-
-				<ul class="cd-nav-gallery is-hidden">
-					<li class="go-back"><a href="#0">Menu</a></li>
-				</ul>
-			</li>
-
-			<li class="has-children">
-				<a href="#">Services</a>
-				<ul class="cd-nav-icons is-hidden">
-					<li class="go-back"><a href="#0">Menu</a></li>
-				</ul>
-			</li>
-
-			<li><a href="#">Standard</a></li>
-		</ul> <!-- primary-nav -->
-	</nav> <!-- cd-nav -->	
-<!-- Mobile Menu start here -->
-	<ul class="cd-header-buttons">
-		<li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
-	</ul> 
 </header>
-<!-- Header end here -->
+<!-- Header end here --> 
