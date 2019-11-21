@@ -160,6 +160,7 @@ $(document).ready(function()
 <script type="text/javascript" src="<?php echo BASE_URL_ROOT; ?>js/modernizr.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL_ROOT; ?>js/jquery.mobile.custom.min.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL_ROOT; ?>js/main.js"></script> 
+<script type="text/javascript" src="<?php echo BASE_URL_ROOT; ?>js/jquery-2.1.1.js"></script> 
 
 <!-- js for news -->
 <script src="<?php echo BASE_URL_ROOT; ?>js/jquery.easing.min.js"></script>
