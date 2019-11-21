@@ -221,7 +221,7 @@ ul.top_ul li {
 
 ul.navbar-nav li.nav-item a {
     border-bottom: 5px solid transparent;
-    padding: 36px 0 !important;
+    padding: 13px 0 12px!important;
 }
 
 ul.navbar-nav li.nav-item a.active {
