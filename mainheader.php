@@ -125,7 +125,7 @@ else {}
 	
 	<div class="cd-main-header">
 		<ul class="cd-header-buttons">
-			<li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
+			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
 		</ul> <!-- cd-header-buttons -->
 	</div>
 
