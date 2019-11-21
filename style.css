@@ -2704,11 +2704,16 @@ section#callback .col-sm-5, section#callback .col-sm-7 {
 .small_screen {
     display: block;
 }
+
+.top_bar.navbar {
+    flex-flow: column;
+    align-items: center;
+}
 	
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
 	
 a.navbar-brand img {
     min-width: 55%;
