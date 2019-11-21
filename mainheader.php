@@ -41,11 +41,11 @@ else {}
 <link href="<?php echo BASE_URL_ROOT; ?>css/style.css" rel="stylesheet" type="text/css" media="all" />
 
 <!-- Mobile menu files here -->
-<link rel="stylesheet" href="css/menu_style.css"> <!-- Resource style -->
-<script src="js/modernizr.js"></script> <!-- Modernizr -->
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/jquery.mobile.custom.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<link rel="stylesheet" href="<?php echo BASE_URL_ROOT; ?>css/menu_style.css"> <!-- Resource style -->
+<script src="<?php echo BASE_URL_ROOT; ?>js/modernizr.js"></script> <!-- Modernizr -->
+<script src="<?php echo BASE_URL_ROOT; ?>js/jquery-2.1.1.js"></script>
+<script src="<?php echo BASE_URL_ROOT; ?>js/jquery.mobile.custom.min.js"></script>
+<script src="<?php echo BASE_URL_ROOT; ?>js/main.js"></script> <!-- Resource jQuery -->
 
 <!--<link href="style.css" rel="stylesheet" type="text/css" media="all" />-->
 <link href="<?php echo BASE_URL_ROOT; ?>mainstyle.css" rel="stylesheet" type="text/css" media="all" />
