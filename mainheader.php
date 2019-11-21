@@ -156,7 +156,7 @@ else {}
 		  <li class="nav-item has-children">
 			<a class="nav-link" href="#">More</a>
 			<ul class="cd-secondary-nav is-hidden">
-				<li class="go-back"><a href="">Go Back</a></li>
+				<li class="go-back"><a href="#">Go Back</a></li>
 				<li><a href="#">Sub Menu 1</a></li>
 				<li><a href="#">Sub Menu 2</a></li>
 			</ul>
