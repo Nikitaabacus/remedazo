@@ -156,8 +156,8 @@ else {}
 		  <li class="nav-item has-children">
 			<a class="nav-link" href="#">More</a>
 			<ul class="cd-secondary-nav is-hidden">
-				<li class="go-back"><a href="#0">Menu</a></li>
-				<li class="see-all"><a href="#">All Clothing</a></li>
+				<li class="go-back"><a href="#0">Go Back</a></li>
+				<li class="see-all"><a href="#">All</a></li>
 				<li class="has-children">
 					<a href="#">Accessories</a>
 
