@@ -288,33 +288,6 @@ else {}
 				<ul class="cd-nav-gallery is-hidden">
 					<li class="go-back"><a href="#0">Menu</a></li>
 					<li class="see-all"><a href="#">Browse Gallery</a></li>
-					<li>
-						<a class="cd-nav-item" href="#">
-							<img src="img/img.jpg" alt="Product Image">
-							<h3>Product #1</h3>
-						</a>
-					</li>
-
-					<li>
-						<a class="cd-nav-item" href="#">
-							<img src="img/img.jpg" alt="Product Image">
-							<h3>Product #2</h3>
-						</a>
-					</li>
-
-					<li>
-						<a class="cd-nav-item" href="#">
-							<img src="img/img.jpg" alt="Product Image">
-							<h3>Product #3</h3>
-						</a>
-					</li>
-
-					<li>
-						<a class="cd-nav-item" href="#">
-							<img src="img/img.jpg" alt="Product Image">
-							<h3>Product #4</h3>
-						</a>
-					</li>
 				</ul>
 			</li>
 
