@@ -170,10 +170,6 @@ li {
 
 /***** Header style start here *****/
 
-.cd-primary-nav li {
-    margin: 0;
-}
-
 .top_bar.navbar a {
     color: rgba(23, 35, 60, 0.85);
     font-size: 24px;
@@ -3374,9 +3370,6 @@ a.cd-logo {
   }
 }
 @media only screen and (min-width: 1170px) {
-  .cd-primary-nav li {
-    margin: 3em 0;
-  }
   .cd-primary-nav a {
     font-size: 32px;
     font-size: 2.4rem;
