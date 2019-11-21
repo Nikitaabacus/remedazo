@@ -2708,7 +2708,7 @@ section#callback .col-sm-5, section#callback .col-sm-7 {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 	
 a.navbar-brand img {
     min-width: 55%;
