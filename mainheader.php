@@ -78,7 +78,7 @@ else {}
 
 	<main class="cd-main-content"></main>
 
-	<nav class="cd-nav">
+	<!-- <nav class="cd-nav">
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
 			<li class="has-children">
 				<a href="#">Clothing</a>
@@ -136,8 +136,8 @@ else {}
 			</li>
 
 			<li><a href="#">Standard</a></li>
-		</ul> <!-- primary-nav -->
-	</nav> <!-- cd-nav -->
+		</ul> 
+	</nav> --> <!-- cd-nav -->
 
 	<!-- Top bar nav -->
 		<!-- Full Screen -->
