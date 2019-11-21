@@ -168,7 +168,66 @@ else {}
 	  </div>  
 	 </div>
 	</nav>
-	
+<nav class="cd-nav">
+		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+			<li class="has-children">
+				<a href="#">Clothing</a>
+
+				<ul class="cd-secondary-nav is-hidden">
+					<li class="go-back"><a href="#0">Menu</a></li>
+					<li class="see-all"><a href="#">All Clothing</a></li>
+					<li class="has-children">
+						<a href="#">Accessories</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Clothing</a></li>
+						</ul>
+					</li>
+
+					<li class="has-children">
+						<a href="#">Bottoms</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Clothing</a></li>
+						</ul>
+					</li>
+
+					<li class="has-children">
+						<a href="#">Jackets</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Clothing</a></li>
+						</ul>
+					</li>
+
+					<li class="has-children">
+						<a href="#">Tops</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Clothing</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li class="has-children">
+				<a href="#">Gallery</a>
+
+				<ul class="cd-nav-gallery is-hidden">
+					<li class="go-back"><a href="#0">Menu</a></li>
+				</ul>
+			</li>
+
+			<li class="has-children">
+				<a href="#">Services</a>
+				<ul class="cd-nav-icons is-hidden">
+					<li class="go-back"><a href="#0">Menu</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">Standard</a></li>
+		</ul> <!-- primary-nav -->
+	</nav> <!-- cd-nav -->	
 <!-- Mobile Menu start here -->
 	<ul class="cd-header-buttons">
 		<li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
