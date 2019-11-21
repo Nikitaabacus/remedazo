@@ -3361,9 +3361,6 @@ a.cd-logo {
 }
 
 @media only screen and (min-width: 768px) {
-  .cd-primary-nav li {
-    margin: 2em 0;
-  }
   .cd-primary-nav a {
     font-size: 28px;
     font-size: 1.75rem;
