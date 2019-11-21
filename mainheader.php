@@ -119,6 +119,11 @@ else {}
 		  </div>
 		</div>
 	<!-- Main nav -->
+	<main class="cd-main-content">
+		<!-- your content here -->
+		
+		<div class="cd-overlay"></div>
+	</main>
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 	 <div class="container">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
