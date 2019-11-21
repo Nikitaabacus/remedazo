@@ -40,11 +40,8 @@ else {}
 <link href="<?php echo BASE_URL_ROOT; ?>css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo BASE_URL_ROOT; ?>css/style.css" rel="stylesheet" type="text/css" media="all" />
 
-<!-- Mobile menu style file here -->
+<!-- Mobile menu style files here -->
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo BASE_URL_ROOT; ?>css/menu_style.css" />
-
-
-
 
 <!--<link href="style.css" rel="stylesheet" type="text/css" media="all" />-->
 <link href="<?php echo BASE_URL_ROOT; ?>mainstyle.css" rel="stylesheet" type="text/css" media="all" />
