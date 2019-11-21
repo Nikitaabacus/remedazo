@@ -156,9 +156,6 @@ $(document).ready(function()
 <script type="text/javascript" src="<?php echo BASE_URL_ROOT; ?>js/jquery.buttonLoader.js"></script>
 <script type="text/javascript" src="<?php echo BASE_URL_ROOT; ?>js/modernizr.custom.79639.js"></script>	
 
-<!-- Mobile menu script files here -->
- 
-
 <!-- js for news -->
 <script src="<?php echo BASE_URL_ROOT; ?>js/jquery.easing.min.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
