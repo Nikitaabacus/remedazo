@@ -133,10 +133,7 @@ else {}
 	
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark cd-nav">
 	 <div class="container">
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-		<span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	  <div class="navbar-collapse" id="collapsibleNavbar">
 		<ul id="cd-primary-nav" class="navbar-nav cd-primary-nav is-fixed">
 		  <li class="nav-item">
 			<a class="nav-link active" href="<?php echo BASE_URL_ROOT; ?>">Home</a>
