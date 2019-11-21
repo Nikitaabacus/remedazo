@@ -157,39 +157,8 @@ else {}
 			<a class="nav-link" href="#">More</a>
 			<ul class="cd-secondary-nav is-hidden">
 				<li class="go-back"><a href="#0">Go Back</a></li>
-				<li class="has-children">
-					<a href="#">Menu 1</a>
-
-					<ul class="is-hidden">
-						<li class="go-back"><a href="#0">Clothing</a></li>
-						<li><a href="#">Sub Menu 1</a></li>
-						<li><a href="#">Sub Menu 2</a></li>
-					</ul>
-				</li>
-
-				<li class="has-children">
-					<a href="#">Menu 2</a>
-
-					<ul class="is-hidden">
-						<li class="go-back"><a href="#0">Clothing</a></li>
-					</ul>
-				</li>
-
-				<li class="has-children">
-					<a href="#">Menu 3</a>
-
-					<ul class="is-hidden">
-						<li class="go-back"><a href="#0">Clothing</a></li>
-					</ul>
-				</li>
-
-				<li class="has-children">
-					<a href="#">Menu 4</a>
-
-					<ul class="is-hidden">
-						<li class="go-back"><a href="#0">Clothing</a></li>
-					</ul>
-				</li>
+				<li><a href="#">Sub Menu 1</a></li>
+				<li><a href="#">Sub Menu 2</a></li>
 			</ul>
 		  </li>
 		</ul>
