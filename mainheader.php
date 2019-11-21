@@ -136,7 +136,7 @@ else {}
 	  <div class="navbar-collapse" id="collapsibleNavbar">
 		<ul id="cd-primary-nav" class="navbar-nav cd-primary-nav is-fixed">
 		  <li class="nav-item">
-			<a class="nav-link active" href="<?php echo BASE_URL_ROOT; ?>">Home</a>
+			<a class="nav-link" href="<?php echo BASE_URL_ROOT; ?>">Home</a>
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link" href="/aboutus.php">About</a>
