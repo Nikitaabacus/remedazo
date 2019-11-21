@@ -2698,7 +2698,7 @@ a.navbar-brand img {
 }
 
 .navbar-nav > li > a {
-    margin: 0;
+    margin: 0 !important;
 }
 
 .flex-cards--items,.flex--bard-4,.flex-card--blog {
