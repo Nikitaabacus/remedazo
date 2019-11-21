@@ -170,6 +170,10 @@ li {
 
 /***** Header style start here *****/
 
+.cd-primary-nav li {
+    margin: 0;
+}
+
 .top_bar.navbar a {
     color: rgba(23, 35, 60, 0.85);
     font-size: 24px;
