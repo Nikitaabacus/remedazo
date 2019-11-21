@@ -71,8 +71,6 @@ else {}
 <body>
 <header class="main_header">
 	<div class="cd-main-header">
-		<a class="cd-logo" href="#0"><img src="img/cd-logo.svg" alt="Logo"></a>
-
 		<ul class="cd-header-buttons">
 			<li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
 		</ul> <!-- cd-header-buttons -->
