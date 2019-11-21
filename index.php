@@ -9,7 +9,7 @@ include("mainheader.php");
 	  <div class="row">
 		<div class="col-sm-6">
 			<div class="left_content">
-				<h1 class="hero--ttl"><span class="tex--outline">Seking for</span><span class="tx--dft">Second Opinion</span></h1>
+				<h1 class="hero--ttl"><span class="tex--outline">Seeking for</span><span class="tx--dft">Second Opinion</span></h1>
 				<h3>Why Get an Online Second Opinion From Remedazo?</h3>
 				<ul class="hero--list">
 					<li>Our specialists are experienced in a wide range of conditions</li>
