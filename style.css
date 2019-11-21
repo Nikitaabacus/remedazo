@@ -2705,10 +2705,11 @@ div#collapsibleNavbar ul.navbar-nav {
     flex-flow: column;
 }
 
-ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
+body ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
     padding: 0 23px !important;
 }
-.cd-primary-nav .go-back a::before, .cd-primary-nav .go-back a::after {
+
+body .cd-primary-nav .go-back a::before, .cd-primary-nav .go-back a::after {
     left: 10px;
 }
 	
