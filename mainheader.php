@@ -78,11 +78,7 @@ else {}
 		</ul> <!-- cd-header-buttons -->
 	</div>
 
-	<main class="cd-main-content">
-		<!-- your content here -->
-		
-		<div class="cd-overlay"></div>
-	</main>
+	<main class="cd-main-content"></main>
 
 	<nav class="cd-nav">
 		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
