@@ -40,6 +40,13 @@ else {}
 <link href="<?php echo BASE_URL_ROOT; ?>css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
 <link href="<?php echo BASE_URL_ROOT; ?>css/style.css" rel="stylesheet" type="text/css" media="all" />
 
+<!-- Mobile menu files here -->
+<link rel="stylesheet" href="css/menu_style.css"> <!-- Resource style -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
 <!--<link href="style.css" rel="stylesheet" type="text/css" media="all" />-->
 <link href="<?php echo BASE_URL_ROOT; ?>mainstyle.css" rel="stylesheet" type="text/css" media="all" />
 <!-- for-mobile-apps -->
@@ -63,6 +70,80 @@ else {}
 </head>
 <body>
 <header class="main_header">
+	<div class="cd-main-header">
+		<a class="cd-logo" href="#0"><img src="img/cd-logo.svg" alt="Logo"></a>
+
+		<ul class="cd-header-buttons">
+			<li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
+		</ul> <!-- cd-header-buttons -->
+	</div>
+
+	<main class="cd-main-content">
+		<!-- your content here -->
+		
+		<div class="cd-overlay"></div>
+	</main>
+
+	<nav class="cd-nav">
+		<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+			<li class="has-children">
+				<a href="#">Clothing</a>
+
+				<ul class="cd-secondary-nav is-hidden">
+					<li class="go-back"><a href="#0">Menu</a></li>
+					<li class="see-all"><a href="#">All Clothing</a></li>
+					<li class="has-children">
+						<a href="#">Accessories</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Clothing</a></li>
+						</ul>
+					</li>
+
+					<li class="has-children">
+						<a href="#">Bottoms</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Clothing</a></li>
+						</ul>
+					</li>
+
+					<li class="has-children">
+						<a href="#">Jackets</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Clothing</a></li>
+						</ul>
+					</li>
+
+					<li class="has-children">
+						<a href="#">Tops</a>
+
+						<ul class="is-hidden">
+							<li class="go-back"><a href="#0">Clothing</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li class="has-children">
+				<a href="#">Gallery</a>
+
+				<ul class="cd-nav-gallery is-hidden">
+					<li class="go-back"><a href="#0">Menu</a></li>
+				</ul>
+			</li>
+
+			<li class="has-children">
+				<a href="#">Services</a>
+				<ul class="cd-nav-icons is-hidden">
+					<li class="go-back"><a href="#0">Menu</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">Standard</a></li>
+		</ul> <!-- primary-nav -->
+	</nav> <!-- cd-nav -->
 
 	<!-- Top bar nav -->
 		<!-- Full Screen -->
