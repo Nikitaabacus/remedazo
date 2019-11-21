@@ -2696,7 +2696,10 @@ a.navbar-brand img {
     min-width: 55%;
     max-width: 55%;
 }
-	
+
+.navbar-nav > li > a {
+    margin: 0;
+}
 
 .flex-cards--items,.flex--bard-4,.flex-card--blog {
     width: 100%;
@@ -3145,7 +3148,8 @@ footer.main_footer .container {
 body .navbar-dark .navbar-nav .nav-link {
     font-size: 14px !important;
     text-align: left;
-    padding: 10px 14px !important;
+    padding: 10px 20px !important;
+    line-height: 30px;
 }
 
 ul.navbar-nav {
