@@ -147,7 +147,7 @@ else {}
 		  <li class="nav-item">
 			<a class="nav-link" href="#">Find a Doctor</a>
 		  </li>
-		  <li class="nav-item has-children">
+		  <li class="nav-item">
 			<a class="nav-link" href="#">Services</a>
 		  </li>
 		  <li class="nav-item">
