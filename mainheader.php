@@ -159,7 +159,18 @@ else {}
 				<li class="go-back"><a href="#0">Go Back</a></li>
 				<li class="see-all"><a href="#">All</a></li>
 				<li class="has-children">
-					<a href="#">Accessories</a>
+					<a href="#">Menu 1</a>
+
+					<ul class="is-hidden">
+						<li class="go-back"><a href="#0">Clothing</a></li>
+						<li class="see-all"><a href="#">All Jackets</a></li>
+						<li><a href="#">Sub Menu 1</a></li>
+						<li><a href="#">Sub Menu 2</a></li>
+					</ul>
+				</li>
+
+				<li class="has-children">
+					<a href="#">Menu 2</a>
 
 					<ul class="is-hidden">
 						<li class="go-back"><a href="#0">Clothing</a></li>
@@ -167,7 +178,7 @@ else {}
 				</li>
 
 				<li class="has-children">
-					<a href="#">Bottoms</a>
+					<a href="#">Menu 3</a>
 
 					<ul class="is-hidden">
 						<li class="go-back"><a href="#0">Clothing</a></li>
@@ -175,15 +186,7 @@ else {}
 				</li>
 
 				<li class="has-children">
-					<a href="#">Jackets</a>
-
-					<ul class="is-hidden">
-						<li class="go-back"><a href="#0">Clothing</a></li>
-					</ul>
-				</li>
-
-				<li class="has-children">
-					<a href="#">Tops</a>
+					<a href="#">Menu 4</a>
 
 					<ul class="is-hidden">
 						<li class="go-back"><a href="#0">Clothing</a></li>
