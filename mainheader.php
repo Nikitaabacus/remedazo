@@ -191,13 +191,13 @@ else {}
 		  </div>
 		</div>
 	<!-- Main nav -->
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark cd-nav">
 	 <div class="container">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-		<ul class="navbar-nav">
+		<ul id="cd-primary-nav" class="navbar-nav cd-primary-nav is-fixed">
 		  <li class="nav-item">
 			<a class="nav-link active" href="<?php echo BASE_URL_ROOT; ?>">Home</a>
 		  </li>
@@ -210,14 +210,49 @@ else {}
 		  <li class="nav-item">
 			<a class="nav-link" href="#">Find a Doctor</a>
 		  </li>
-		  <li class="nav-item">
+		  <li class="nav-item has-children">
 			<a class="nav-link" href="#">Services</a>
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link" href="/blog">Blog</a>
 		  </li>
-		  <li class="nav-item">
+		  <li class="nav-item has-children">
 			<a class="nav-link" href="#">More</a>
+			<ul class="cd-secondary-nav is-hidden">
+				<li class="go-back"><a href="#0">Menu</a></li>
+				<li class="see-all"><a href="#">All Clothing</a></li>
+				<li class="has-children">
+					<a href="#">Accessories</a>
+
+					<ul class="is-hidden">
+						<li class="go-back"><a href="#0">Clothing</a></li>
+					</ul>
+				</li>
+
+				<li class="has-children">
+					<a href="#">Bottoms</a>
+
+					<ul class="is-hidden">
+						<li class="go-back"><a href="#0">Clothing</a></li>
+					</ul>
+				</li>
+
+				<li class="has-children">
+					<a href="#">Jackets</a>
+
+					<ul class="is-hidden">
+						<li class="go-back"><a href="#0">Clothing</a></li>
+					</ul>
+				</li>
+
+				<li class="has-children">
+					<a href="#">Tops</a>
+
+					<ul class="is-hidden">
+						<li class="go-back"><a href="#0">Clothing</a></li>
+					</ul>
+				</li>
+			</ul>
 		  </li>
 		</ul>
 		<ul class="navbar-nav right_nav">
