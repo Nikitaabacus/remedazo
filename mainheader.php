@@ -131,12 +131,12 @@ else {}
 
 	<main class="cd-main-content"></main>
 	
-	<nav id="menu" class="navbar navbar-expand-sm bg-dark navbar-dark cd-nav">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark cd-nav">
 	 <div class="container">
 	  <div class="navbar-collapse" id="collapsibleNavbar">
 		<ul id="cd-primary-nav" class="navbar-nav cd-primary-nav is-fixed">
 		  <li class="nav-item">
-			<a class="nav-link" href="<?php echo BASE_URL_ROOT; ?>">Home</a>
+			<a class="nav-link active" href="<?php echo BASE_URL_ROOT; ?>">Home</a>
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link" href="/aboutus.php">About</a>
@@ -184,14 +184,3 @@ else {}
 	</nav>
 </header>
 <!-- Header end here --> 
-<script>
-var header = document.getElementById("menu");
-var btns = header.getElementsByClassName("nav-link");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
