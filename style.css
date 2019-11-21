@@ -2695,28 +2695,6 @@ section#callback .col-sm-5, section#callback .col-sm-7 {
 
 }
 
-@media screen and (max-width:1023px) {
-	
-.full_screen {
-    display: none;
-}
-
-.small_screen {
-    display: block;
-}
-
-.top_bar.navbar {
-    flex-flow: column;
-    align-items: center;
-}
-
-div#collapsibleNavbar ul.navbar-nav {
-    flex-flow: column;
-}
-	
-}
-
-
 @media only screen and (max-width: 768px) {
 	
 a.navbar-brand img {
