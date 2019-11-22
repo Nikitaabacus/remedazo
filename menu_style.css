@@ -358,6 +358,11 @@ body.cd-main-content {
   }
 }
 
+body {
+    position: relative;
+    z-index: 99;
+}
+
 .cd-primary-nav, .cd-primary-nav ul {
 	padding: 0;
   position: fixed;
