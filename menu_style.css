@@ -82,7 +82,7 @@ ul.navbar-nav li.nav-item li.has-children a {
   width: 100%;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-main-header {
     height: 95px;
   }
@@ -102,7 +102,7 @@ ul.navbar-nav li.nav-item li.has-children a {
     right: 5%;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-logo {
     top: 26px;
     left: 4em;
@@ -153,7 +153,7 @@ ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
 }
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-header-buttons {
     top: 18px;
     right: 4em;
@@ -349,7 +349,7 @@ ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
   -o-transform: translateX(4px) translateY(2px) rotate(-45deg);
   transform: translateX(4px) translateY(2px) rotate(-45deg);
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-nav-trigger {
     display: none;
   }
@@ -515,7 +515,7 @@ ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
   }
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-primary-nav {
     position: static;
     padding: 0;
@@ -798,7 +798,7 @@ ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
     background: #c9cbc4;
   }
@@ -833,7 +833,7 @@ ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
   transform-origin: 1px 50%;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .has-children > a::before, .has-children > a::after {
     right: 15%;
   }
@@ -948,7 +948,7 @@ ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
 .nav-is-fixed .cd-search {
   position: fixed;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-search {
     height: 120px;
     top: 95px;
@@ -1030,7 +1030,7 @@ support for no js
   visibility: visible;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .no-js .cd-primary-nav {
     position: absolute;
     z-index: 3;
