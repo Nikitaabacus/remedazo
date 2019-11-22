@@ -363,6 +363,10 @@ body {
     z-index: 99;
 }
 
+ul.cd-secondary-nav {
+    z-index: 0;
+}
+
 .cd-primary-nav, .cd-primary-nav ul {
 	padding: 0;
   position: fixed;
