@@ -1,7 +1,3 @@
-.cd-primary-nav, .cd-primary-nav ul {
-    z-index: 99;
-}
-
 @media only screen and (max-width: 768px) {
 body.nav-on-left.overflow-hidden {
     overflow: hidden;
@@ -365,7 +361,7 @@ ul.cd-secondary-nav {
   background: #2e3233;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
-  z-index: -99;
+  z-index: 1;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -422,6 +418,14 @@ ul.cd-secondary-nav {
 }
 
 @media only screen and (max-width: 768px) {
+.cd-primary-nav, .cd-primary-nav ul {
+ z-index: -99;
+ }
+ 
+ ul.cd-secondary-nav {
+    z-index: 0;
+}
+	
   .nav-on-left .cd-primary-nav, .nav-on-left .cd-primary-nav ul {
     right: auto;
     left: 0;
