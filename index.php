@@ -367,7 +367,7 @@ include("mainheader.php");
 								</div>
 								<div class="feeds--description">
 									<h4>Act like a boss… Act like a boss…</h4>
-									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span> <a href="/aboutus.php">Read full story ></a></p>
+									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span> <a href="/blog">Read full story ></a></p>
 								</div>
 							</li>
 							<li>
@@ -376,7 +376,7 @@ include("mainheader.php");
 								</div>
 								<div class="feeds--description">
 									<h4>Act like a boss… Act like a boss…</h4>
-									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span><a href="/aboutus.php">Read full story ></a></p>
+									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span><a href="/blog">Read full story ></a></p>
 								</div>
 							</li>
 							<li>
@@ -385,7 +385,7 @@ include("mainheader.php");
 								</div>
 								<div class="feeds--description">
 									<h4>Act like a boss… Act like a boss…</h4>
-									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span><a href="/aboutus.php">Read full story ></a></p>
+									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span><a href="/blog">Read full story ></a></p>
 								</div>
 							</li>
 						</ul>
