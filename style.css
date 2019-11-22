@@ -2709,14 +2709,18 @@ a.nav-link, ul.navbar-nav.right_nav li, ul.navbar-nav.right_nav li a.nav-link {
     font-size: 13px!important;
 }
 .navbar-dark .navbar-nav .login_btn a {
-    width: 80px;
+    width: 80px !important;
 }
 div#collapsibleNavbar ul.navbar-nav {
-    flex: 80%;
-    width: 80%;
+    flex: 80% !important;
+    width: 80% !important;
 }
 div#collapsibleNavbar ul.navbar-nav.right_nav {
-    padding-right: 0;
+    flex: 20% !important;
+    width: 20% !important;
+}
+div#collapsibleNavbar ul.navbar-nav.right_nav {
+    padding-right: 0 !important;
 }
 	
 }
