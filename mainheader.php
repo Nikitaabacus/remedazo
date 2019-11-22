@@ -122,16 +122,13 @@ else {}
 		  </div>
 		</div>
 	<!-- Main nav -->
-	
-	<div class="cd-main-header">
+	<!-- trigger navigation --->
 		<ul class="cd-header-buttons">
 			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
 		</ul> <!-- cd-header-buttons -->
-	</div>
+	<!--- triger navigation end -->
 
-	<main class="cd-main-content"></main>
-	
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark cd-nav">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark cd-nav">
 	 <div class="container">
 	  <div class="navbar-collapse" id="collapsibleNavbar">
 		<ul id="cd-primary-nav" class="navbar-nav cd-primary-nav is-fixed">
@@ -184,3 +181,8 @@ else {}
 	</nav>
 </header>
 <!-- Header end here --> 
+
+<main class="cd-main-content">
+		<!-- your content here -->
+		
+		
