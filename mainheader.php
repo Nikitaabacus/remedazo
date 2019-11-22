@@ -158,7 +158,7 @@ else {}
 				<li><a href="#">Sub Menu 2</a></li>
 			</ul>
 		  </li>
-		  <li class="nav-item login_btn">
+		  <li class="nav-item login_botton">
 			<a class="nav-link" href="#">Login</a>
 		  </li>
 		</ul>
