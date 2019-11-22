@@ -3402,7 +3402,7 @@ div#collapsibleNavbar ul.navbar-nav.right_nav {
 }
 
 div#collapsibleNavbar ul.navbar-nav {
-    flex: 80%; 
+    flex: 80%;
     width: 80%;
     justify-content: space-between;
     align-items: center;
