@@ -68,9 +68,8 @@ else {}
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="cd-main-header">
-<header class="main_header cd-main-header">
-<div class="cd-main-header">
+<body class="cd-main-content">
+<header class="main_header">
 	<!-- Top bar nav -->
 		<!-- Full Screen -->
 		<div class="top_header full_screen">
@@ -182,8 +181,3 @@ else {}
 	</nav>
 </header>
 <!-- Header end here --> 
-
-<main class="cd-main-content">
-		<!-- your content here -->
-		
-		
