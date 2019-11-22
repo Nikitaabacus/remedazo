@@ -10352,6 +10352,9 @@ p.btm_footer {
 }
 
 @media (max-width: 480px){	
+.toP i, .top_bar.navbar a {
+    font-size: 12px !important;
+}
 header.logo{ top:70px; }
 	.login h3 {
 		font-size: 28px;
