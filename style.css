@@ -2596,8 +2596,6 @@ a.nav-link {
 
 }
 
-/* @media screen and (max-width:1200px) { */
-	
 @media only screen and (max-width: 1366px) {
 
 body .navbar-dark .navbar-nav .nav-link {
@@ -3413,8 +3411,7 @@ a.cd-logo {
     font-size: 28px;
     font-size: 1.75rem;
   }
-  
-  
+
 div#collapsibleNavbar ul.navbar-nav.right_nav {
     flex: 15%;
     width: 15%;
@@ -3429,12 +3426,8 @@ div#collapsibleNavbar ul.navbar-nav {
     justify-content: space-between;
     align-items: center;
 }
-
     
 }
-
-
-
 
 @media only screen and (min-width: 1170px) {
   .cd-primary-nav a {
