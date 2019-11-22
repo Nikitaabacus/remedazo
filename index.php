@@ -94,7 +94,7 @@ include("mainheader.php");
 					</div>
 					<h3>Free <br/>E - Consultation</h3>
 					<p>When you register with Remedazo, you will be given a free e-consultation with one of our specialist affiliate doctors. During your free e-consultation you will learn more about treatment options, procedures, recovery and after-care from an expert.</p>
-					<a href="/about.html">Read More</a>
+					<a href="/aboutus.php">Read More</a>
 				</div>
 			</div>
 			<!-- card end -->
@@ -106,7 +106,7 @@ include("mainheader.php");
 					</div>
 					<h3>Monitoring by </br>Personal phycisian</h3>
 					<p>The Remedazo medical team is united in its belief that continuous care is quality care. This is why we are dedicated to removing any sources of confusion or miscommunication between you and your doctor.</p>
-					<a href="/about.html">Read More</a>
+					<a href="/aboutus.php">Read More</a>
 				</div>
 			</div>
 			<!-- card end -->
@@ -118,7 +118,7 @@ include("mainheader.php");
 					</div>
 					<h3>Post treatment <br/>Follow-up</h3>
 					<p>The Remedazo experience does not end as your make your way back home. Having already undergone post- treatment consultations in India and been given the all-clear to return home, you will remain under our wing via a secure online platform.</p>
-					<a href="/about.html">Read More</a>
+					<a href="/aboutus.php">Read More</a>
 				</div>
 			</div>
 			<!-- card end -->
@@ -130,13 +130,13 @@ include("mainheader.php");
 					</div>
 					<h3>Medical legal <br/>Support</h3>
 					<p>The Remedazo experience does not end as your make your way back home. Having already undergone post- treatment consultations in India and been given the all-clear to return home, you will remain under our wing via a secure online platform.</p>
-					<a href="/about.html">Read More</a>
+					<a href="/aboutus.php">Read More</a>
 				</div>
 			</div>
 			<!-- card end -->
 		</div>
 		<div class="fis-cotainer">
-			<a href="http://remedazo.com/about.html"><span>About Us</span><img src="images/right-arrow.svg"/></a>
+			<a href="http://remedazo.com/aboutus.php"><span>About Us</span><img src="images/right-arrow.svg"/></a>
 		</div>
 	</div>
 </section>
@@ -253,7 +253,7 @@ include("mainheader.php");
 		<div class="col-md-6">
 			<h2 class="page--sub-title">Connected Healthcare ecosystem</h2>
 			<p>A Continuously Connected Healthcare Ecosystem Travelling abroad for medical care should never be a step in the dark. That is why Remedazo has created a Continuously Connected Healthcare Ecosystem that begins from your first contact moment. Step by step, we work together to arrange a faultless journey attuned to your needs. Your personal team integrates every aspect of your stay, treatment and recovery within a single package, taking away the need for unnecessary stress and paperwork. Remedazo’s ability to provide personalised essential and non-essential services means your medical tourism journey is never a leap of faith but a thoroughly informed and carefully calculated decision. Collaboration – A Fundamental Value in Your Medical Tourism Journey Collaborative healthcare requires open communication between patient and caregiver. A collaborative Continuous Connected Healthcare Ecosystem adds a further channel of communication – your environment. As far as we are concerned, patient collaboration does not simply mean your choice of medical facility or physician, it also means respecting every one of your preferences as regards travel preparation, accommodation, ease of communication and transportation.</p>
-			<a href="/about.html" class="btn--rounded fill-outline">Know More<img src="images/ic--arrow-right.svg"></a>
+			<a href="/aboutus.php" class="btn--rounded fill-outline">Know More<img src="images/ic--arrow-right.svg"></a>
 		</div>
 		</div>
 	</div>
@@ -367,7 +367,7 @@ include("mainheader.php");
 								</div>
 								<div class="feeds--description">
 									<h4>Act like a boss… Act like a boss…</h4>
-									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span> <a href="/about.html">Read full story ></a></p>
+									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span> <a href="/aboutus.php">Read full story ></a></p>
 								</div>
 							</li>
 							<li>
@@ -376,7 +376,7 @@ include("mainheader.php");
 								</div>
 								<div class="feeds--description">
 									<h4>Act like a boss… Act like a boss…</h4>
-									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span><a href="/about.html">Read full story ></a></p>
+									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span><a href="/aboutus.php">Read full story ></a></p>
 								</div>
 							</li>
 							<li>
@@ -385,7 +385,7 @@ include("mainheader.php");
 								</div>
 								<div class="feeds--description">
 									<h4>Act like a boss… Act like a boss…</h4>
-									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span><a href="/about.html">Read full story ></a></p>
+									<p><span>Why to ask these questions? How these are helpful to you? Why to ask these questions? How these are helpful to you?Why to ask these questions?Why to ask these questions? How these are helpful to.</span><a href="/aboutus.php">Read full story ></a></p>
 								</div>
 							</li>
 						</ul>
