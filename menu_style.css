@@ -119,14 +119,6 @@ ul.navbar-nav li.nav-item li.has-children a {
   .nav-on-left .cd-header-buttons li {
     float: right;
   }
-  .cd-main-header {
-    height: 50px;
-    background: transparent;
-    z-index: 3;
-    position: absolute;
-    top: 10px;
-    right: 5%;
-}
 .cd-primary-nav .cd-secondary-nav li.see-all {
     display: block;
 }
