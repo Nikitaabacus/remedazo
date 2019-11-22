@@ -70,6 +70,7 @@ else {}
 </head>
 <body>
 <header class="main_header cd-main-header">
+<div class="cd-main-header">
 	<!-- Top bar nav -->
 		<!-- Full Screen -->
 		<div class="top_header full_screen">
@@ -127,7 +128,7 @@ else {}
 			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
 		</ul> <!-- cd-header-buttons -->
 	<!--- triger navigation end -->
-
+</div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark cd-nav">
 	 <div class="container">
 	  <div class="navbar-collapse" id="collapsibleNavbar">
