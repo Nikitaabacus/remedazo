@@ -1,13 +1,40 @@
-@media only screen and (max-width: 1169px) {
-  body.nav-on-left.overflow-hidden {
+@media only screen and (max-width: 768px) {
+body.nav-on-left.overflow-hidden {
     overflow: hidden;
   }
-}
+} 
+
 /* -------------------------------- 
 
 Main components 
 
 -------------------------------- */
+
+.cd-header-buttons {
+    background: transparent !IMPORTANT;
+}
+
+.cd-primary-nav .cd-secondary-nav {
+    width: 15% !important;
+    padding: 0 20px !important;
+}
+
+ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
+    padding: 0 !important;
+}
+
+ul.navbar-nav li.nav-item .cd-secondary-nav > li:last-child {
+    border: none;
+}
+ul.navbar-nav li.nav-item .cd-secondary-nav > li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul.navbar-nav li.nav-item li.has-children a {
+    padding: 0 !important;
+}
+
 .cd-main-content, .cd-main-header {
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
@@ -24,7 +51,8 @@ Main components
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
 }
-@media only screen and (max-width: 1169px) {
+
+@media only screen and (max-width: 768px) {
   .cd-main-content.nav-is-visible, .cd-main-header.nav-is-visible {
     -webkit-transform: translateX(-260px);
     -moz-transform: translateX(-260px);
@@ -41,12 +69,6 @@ Main components
   }
 }
 
-.cd-main-content {
-  background: #e2e3df;
-  min-height: 100vh;
-  z-index: 2;
-}
-
 .cd-main-header {
   height: 50px;
   background: #ffffff;
@@ -59,9 +81,10 @@ Main components
   left: 0;
   width: 100%;
 }
-@media only screen and (min-width: 1170px) {
+
+@media only screen and (min-width: 769px) {
   .cd-main-header {
-    height: 80px;
+    height: 95px;
   }
   .cd-main-header::after {
     clear: both;
@@ -70,21 +93,16 @@ Main components
   }
 }
 
-.cd-logo {
-  position: absolute;
-  top: 12px;
-  left: 5%;
-}
 .cd-logo img {
   display: block;
 }
-@media only screen and (max-width: 1169px) {
+@media only screen and (max-width: 768px) {
   .nav-on-left .cd-logo {
     left: auto;
     right: 5%;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-logo {
     top: 26px;
     left: 4em;
@@ -92,15 +110,16 @@ Main components
 }
 
 .cd-header-buttons {
-  position: absolute;
-  display: inline-block;
-  top: 3px;
-  right: 5%;
+    position: absolute;
+    display: inline-block;
+    top: 3px;
+    right: 5%;
+    background: #fff;
 }
 .cd-header-buttons li {
   display: inline-block;
 }
-@media only screen and (max-width: 1169px) {
+@media only screen and (max-width: 768px) {
   .nav-on-left .cd-header-buttons {
     right: auto;
     left: 5%;
@@ -108,8 +127,33 @@ Main components
   .nav-on-left .cd-header-buttons li {
     float: right;
   }
+  .cd-main-header {
+    height: 50px;
+    background: transparent;
+    z-index: 3;
+    position: absolute;
+    top: 10px;
+    right: 5%;
 }
-@media only screen and (min-width: 1170px) {
+.cd-primary-nav .cd-secondary-nav li.see-all {
+    display: block;
+}
+.cd-primary-nav .cd-secondary-nav {
+    width: 100% !important;
+    padding: 0 !important;
+}
+ul.navbar-nav li.nav-item .cd-secondary-nav > li {
+    border-bottom: 1px solid #666 !important;
+}
+ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
+    padding: 0 !important;
+    font-size: 12px;
+    height: auto;
+    line-height: 24px;
+}
+}
+
+@media only screen and (min-width: 769px) {
   .cd-header-buttons {
     top: 18px;
     right: 4em;
@@ -289,7 +333,10 @@ Main components
 }
 .cd-nav-trigger.nav-is-visible span::before, .cd-nav-trigger.nav-is-visible span::after {
   /* keep visible other 2 lines */
-  background: #2e3233;
+  background: #fff;
+}
+a.cd-nav-trigger.nav-is-visible {
+    background: #2e3233;
 }
 .cd-nav-trigger.nav-is-visible span::before {
   -webkit-transform: translateX(4px) translateY(-3px) rotate(45deg);
@@ -305,13 +352,14 @@ Main components
   -o-transform: translateX(4px) translateY(2px) rotate(-45deg);
   transform: translateX(4px) translateY(2px) rotate(-45deg);
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-nav-trigger {
     display: none;
   }
 }
 
 .cd-primary-nav, .cd-primary-nav ul {
+	padding: 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -376,7 +424,7 @@ Main components
   opacity: 0;
 }
 
-@media only screen and (max-width: 1169px) {
+@media only screen and (max-width: 768px) {
   .nav-on-left .cd-primary-nav, .nav-on-left .cd-primary-nav ul {
     right: auto;
     left: 0;
@@ -454,7 +502,7 @@ Main components
 .cd-primary-nav .cd-nav-icons .cd-nav-item.item-8::before {
   background-image: url("../img/line-icon-8.svg");
 }
-@media only screen and (max-width: 1169px) {
+@media only screen and (max-width: 768px) {
   .cd-primary-nav {
     /* by default .cd-primary-nav is hidden - trick for iOS devices where you can see the navigation if you pull down */
     visibility: hidden;
@@ -470,10 +518,10 @@ Main components
   }
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-primary-nav {
     position: static;
-    padding: 0 150px 0 0;
+    padding: 0;
     height: auto;
     width: auto;
     float: right;
@@ -519,16 +567,10 @@ Main components
     transform: translateX(0);
     opacity: 1;
   }
-  .cd-primary-nav > li {
-    float: left;
-    margin-left: 3em;
-  }
   .cd-primary-nav > li > a {
     /* main navigation buttons style */
     position: relative;
     display: inline-block;
-    height: 80px;
-    line-height: 80px;
     padding: 0 10px;
     color: #2e3233;
     overflow: visible;
@@ -536,13 +578,6 @@ Main components
     -webkit-transition: color 0.3s, box-shadow 0.3s;
     -moz-transition: color 0.3s, box-shadow 0.3s;
     transition: color 0.3s, box-shadow 0.3s;
-  }
-  .cd-primary-nav > li > a:hover {
-    color: #69aa6f;
-  }
-  .cd-primary-nav > li > a.selected {
-    color: #69aa6f;
-    box-shadow: inset 0 -2px 0 #69aa6f;
   }
   .cd-primary-nav .go-back, .cd-primary-nav .see-all {
     display: none;
@@ -613,31 +648,19 @@ Main components
     border-color: #2e3233;
     color: #ffffff;
   }
-  .cd-primary-nav .cd-secondary-nav > li {
-    /* change the height according to your needs - you can even set height: auto */
-    height: 340px;
-    /* here you set the number of columns - use width percentage */
-    width: 23%;
-    float: left;
-    margin-right: 2.66%;
-    border-right: 1px solid #e2e3df;
-    overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-  }
   .cd-primary-nav .cd-secondary-nav > li:nth-child(4n+2) {
     /* +2 because we have 2 list items with display:none */
     margin-right: 0;
     border-right: none;
   }
-  .cd-primary-nav .cd-secondary-nav > li > a {
-    /* secondary nav title */
-    color: #69aa6f;
-    font-weight: bold;
-    font-size: 1.6rem;
-    margin-bottom: .6em;
-  }
+.cd-primary-nav .cd-secondary-nav > li > a {
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+.cd-primary-nav .cd-secondary-nav li.see-all {
+    display: none;
+}
   .cd-primary-nav .cd-secondary-nav a {
     height: 30px;
     line-height: 30px;
@@ -647,7 +670,7 @@ Main components
     font-size: 1.4rem;
   }
   .cd-primary-nav .cd-secondary-nav a:hover {
-    color: #69aa6f;
+    color: #60bfc3;
   }
   .cd-primary-nav .cd-secondary-nav ul {
     /* Force Hardware Acceleration in WebKit */
@@ -756,7 +779,7 @@ Main components
   content: '';
   position: absolute;
   top: 50%;
-  margin-top: -1px;
+  margin-top: 1px;
   display: inline-block;
   height: 2px;
   width: 10px;
@@ -778,7 +801,7 @@ Main components
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
     background: #c9cbc4;
   }
@@ -813,7 +836,7 @@ Main components
   transform-origin: 1px 50%;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .has-children > a::before, .has-children > a::after {
     right: 15%;
   }
@@ -836,12 +859,12 @@ Main components
     -moz-transition: width 0.3s, -moz-transform 0.3s;
     transition: width 0.3s, transform 0.3s;
   }
-  .cd-primary-nav > .has-children > a::before {
-    right: 12px;
-  }
-  .cd-primary-nav > .has-children > a::after {
-    right: 7px;
-  }
+.cd-primary-nav > .has-children > a::before {
+    right: -15px;
+}
+.cd-primary-nav > .has-children > a::after {
+    right: -20px;
+}
   .cd-primary-nav > .has-children > a.selected::before, .cd-primary-nav > .has-children > a.selected::after {
     width: 14px;
   }
@@ -928,10 +951,10 @@ Main components
 .nav-is-fixed .cd-search {
   position: fixed;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .cd-search {
     height: 120px;
-    top: 80px;
+    top: 95px;
   }
   .cd-search input {
     padding: 0 2em;
@@ -965,7 +988,7 @@ Main components
   -moz-transition: opacity 0.3s 0s, visibility 0s 0s, -moz-transform 0.3s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s;
 }
-@media only screen and (max-width: 1169px) {
+@media only screen and (max-width: 768px) {
   .cd-overlay.is-visible {
     -webkit-transform: translateX(-260px);
     -moz-transform: translateX(-260px);
@@ -1010,7 +1033,7 @@ support for no js
   visibility: visible;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 769px) {
   .no-js .cd-primary-nav {
     position: absolute;
     z-index: 3;
