@@ -112,9 +112,9 @@ ul.navbar-nav li.nav-item li.has-children a {
 .cd-header-buttons {
     position: absolute;
     display: inline-block;
-    top: 3px;
-    right: 5%;
-    background: #fff;
+    top: 0;
+    right: -1px;
+    border-radius: 0;
 }
 .cd-header-buttons li {
   display: inline-block;
@@ -333,7 +333,10 @@ ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
 }
 .cd-nav-trigger.nav-is-visible span::before, .cd-nav-trigger.nav-is-visible span::after {
   /* keep visible other 2 lines */
-  background: #2e3233;
+  background: #fff;
+}
+a.cd-nav-trigger.nav-is-visible {
+    background: #2e3233;
 }
 .cd-nav-trigger.nav-is-visible span::before {
   -webkit-transform: translateX(4px) translateY(-3px) rotate(45deg);
