@@ -8376,6 +8376,9 @@ label.test-info {
 }
 
 @media (max-width: 1024px){
+	.navbar-dark .navbar-nav .login_btn a {
+    width: 90px;
+}
 	.login h3 {
 		font-size: 34px;
 	}	
