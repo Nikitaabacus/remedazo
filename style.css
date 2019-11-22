@@ -2677,7 +2677,7 @@ section#callback .col-sm-5, section#callback .col-sm-7 {
 
 }
 
-@media screen and (min-width:769px) and (max-width:1024px) {
+/* @media screen and (min-width:769px) and (max-width:1024px) {
 	
 div#collapsibleNavbar ul.navbar-nav li.nav-item:first-child, div#collapsibleNavbar ul.navbar-nav li.nav-item:first-child a {
     padding-left: 23px;
@@ -2699,7 +2699,7 @@ div#collapsibleNavbar ul.navbar-nav.right_nav {
     flex-flow: row;
 }
 	
-}
+} */
 
 @media only screen and (max-width: 768px) {
 	
