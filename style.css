@@ -2705,7 +2705,7 @@ div#collapsibleNavbar ul.navbar-nav.right_nav {
 	
 } */
 
-@media screen and (min-width:769px) and (max-width:970px) {
+@media screen and (min-width:768px) and (max-width:970px) {
 	
 a.nav-link, ul.navbar-nav.right_nav li, ul.navbar-nav.right_nav li a.nav-link {
     font-size: 13px!important;
