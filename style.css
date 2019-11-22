@@ -2705,6 +2705,24 @@ div#collapsibleNavbar ul.navbar-nav.right_nav {
 	
 } */
 
+@media screen and (min-width:769px) and (max-width:970px) {
+	
+a.nav-link, ul.navbar-nav.right_nav li, ul.navbar-nav.right_nav li a.nav-link {
+    font-size: 13px!important;
+}
+.navbar-dark .navbar-nav .login_btn a {
+    width: 80px;
+}
+div#collapsibleNavbar ul.navbar-nav {
+    flex: 80%;
+    width: 80%;
+}
+div#collapsibleNavbar ul.navbar-nav.right_nav {
+    padding-right: 0;
+}
+	
+}
+
 @media only screen and (max-width: 768px) {
 	
 a.navbar-brand img {
