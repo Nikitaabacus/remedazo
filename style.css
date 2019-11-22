@@ -3082,7 +3082,7 @@ header.main_header ul li a {
     padding: 0 0 0 10px;
 }
 
-.toP i, .top_bar.navbar a {
+.top_bar.navbar a, .num.toP i.fa.fa-phone, .top_bar.navbar i {
     font-size: 14px !important;
 	font-weight: 600;
 }
