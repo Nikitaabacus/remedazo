@@ -2712,15 +2712,14 @@ body a.nav-link, body ul.navbar-nav.right_nav li, body ul.navbar-nav.right_nav l
     width: 80px !important;
 }
 div#collapsibleNavbar ul.navbar-nav {
-    flex: 80% !important;
-    width: 80% !important;
+    flex: 82% !important;
+    width: 82% !important;
+	padding-right: 20px !important;
 }
 div#collapsibleNavbar ul.navbar-nav.right_nav {
-    flex: 20% !important;
-    width: 20% !important;
-}
-div#collapsibleNavbar ul.navbar-nav.right_nav {
-    padding-right: 0 !important;
+    flex: 18% !important;
+    width: 18% !important;
+	padding-right: 0 !important;
 }
 	
 }
