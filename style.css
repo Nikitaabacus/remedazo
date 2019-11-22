@@ -1,4 +1,4 @@
-*{}
+*{} 
 
 /***** Fonts start here *****/
 
@@ -283,7 +283,7 @@ nav.navbar {
 }
 
 ul.navbar-nav li.nav-item {
-    padding: 0 35px;
+    padding: 0;
 }
 
 ul.top_ul li {
@@ -348,15 +348,6 @@ ul.navbar-nav li.login_btn {
 div#collapsibleNavbar {
     padding: 0;
     justify-content: space-between;
-}
-
-div#collapsibleNavbar ul.navbar-nav.right_nav {
-    flex: 11%;
-    justify-content: flex-end;
-}
-
-div#collapsibleNavbar ul.navbar-nav {
-    flex: 80%;
 }
 
 body .bg-dark {
@@ -2603,27 +2594,18 @@ a.nav-link {
 
 /* @media screen and (max-width:1200px) { */
 	
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+@media only screen and (max-width: 1366px) {
 
 body .navbar-dark .navbar-nav .nav-link {
     margin: 0;
-    font-size: 14px !important;
-}
-
-.sl-nav li {
-    font-size: 14px!important;
-}
-
-ul.navbar-nav li.nav-item {
-    padding: 0 23px;
-}
-
-div#collapsibleNavbar ul.navbar-nav {
-    flex: 72%;
 }
 
 ul.navbar-nav.right_nav li {
     padding-right: 0;
+}
+
+ul.navbar-nav li.nav-item {
+    padding: 0;
 }
 
 a.navbar-brand img {
@@ -2725,6 +2707,17 @@ a.navbar-brand img {
     min-width: 55%;
     max-width: 55%;
 }
+
+
+.navbar-expand-sm .navbar-nav{
+	flex-direction:column!important;
+}
+
+ul.navbar-nav.right_nav {
+    display: none;
+}
+
+
 
 .navbar-nav > li > a {
     margin: 0 !important;
@@ -3398,7 +3391,29 @@ a.cd-logo {
     font-size: 28px;
     font-size: 1.75rem;
   }
+  
+  
+div#collapsibleNavbar ul.navbar-nav.right_nav {
+    flex: 16%;
+    width: 16%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
 }
+
+div#collapsibleNavbar ul.navbar-nav {
+    flex: 84%;
+    width: 84%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    
+}
+
+
+
+
 @media only screen and (min-width: 1170px) {
   .cd-primary-nav a {
     font-size: 32px;
@@ -11448,6 +11463,10 @@ section#profile .btn {
 }
 
 /*********** Franchise form style end here ***********/
+
+
+
+
  
 @media screen and (max-width:1440px) {
 	
