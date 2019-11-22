@@ -68,7 +68,7 @@ else {}
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body class="cd-main-header">
 <header class="main_header cd-main-header">
 <div class="cd-main-header">
 	<!-- Top bar nav -->
@@ -128,7 +128,7 @@ else {}
 			<li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
 		</ul> <!-- cd-header-buttons -->
 	<!--- triger navigation end -->
-</div>
+
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark cd-nav">
 	 <div class="container">
 	  <div class="navbar-collapse" id="collapsibleNavbar">
