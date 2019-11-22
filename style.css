@@ -3387,9 +3387,9 @@ a.cd-logo {
 }
 
 @media only screen and (min-width: 768px) {
-  .cd-primary-nav a {
+  .cd-primary-nav a, ul.navbar-nav.right_nav li, .navbar-dark .navbar-nav .login_btn a {
     font-size: 28px;
-    font-size: 1.75rem;
+    font-size: 1.60rem !important;
   }
   
   
