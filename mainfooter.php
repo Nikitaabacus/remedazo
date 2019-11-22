@@ -191,6 +191,6 @@ $(document).ready(function()
 </script>
 <!-- Footer end here -->
 <script src="//geodata.solutions/includes/countrystatecity.js"></script>
-</main>
+</main> 
 </body>
 </html>
