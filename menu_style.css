@@ -333,10 +333,7 @@ ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
 }
 .cd-nav-trigger.nav-is-visible span::before, .cd-nav-trigger.nav-is-visible span::after {
   /* keep visible other 2 lines */
-  background: #fff;
-}
-a.cd-nav-trigger.nav-is-visible {
-    background: #2e3233;
+  background: #2e3233;
 }
 .cd-nav-trigger.nav-is-visible span::before {
   -webkit-transform: translateX(4px) translateY(-3px) rotate(45deg);
