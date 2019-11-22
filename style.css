@@ -3394,16 +3394,16 @@ a.cd-logo {
   
   
 div#collapsibleNavbar ul.navbar-nav.right_nav {
-    flex: 20%;
-    width: 20%;
+    flex: 18%;
+    width: 18%;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
 }
 
 div#collapsibleNavbar ul.navbar-nav {
-    flex: 80%; 
-    width: 80%;
+    flex: 82%; 
+    width: 82%;
     justify-content: space-between;
     align-items: center;
 }
