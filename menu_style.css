@@ -335,6 +335,9 @@ ul.navbar-nav li.nav-item .cd-secondary-nav > li > a {
   /* keep visible other 2 lines */
   background: #2e3233;
 }
+body.cd-main-content {
+    z-index: 2;
+}
 .cd-nav-trigger.nav-is-visible span::before {
   -webkit-transform: translateX(4px) translateY(-3px) rotate(45deg);
   -moz-transform: translateX(4px) translateY(-3px) rotate(45deg);
