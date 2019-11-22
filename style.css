@@ -3386,7 +3386,7 @@ a.cd-logo {
 	font-family: 'Poiret One', cursive;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .cd-primary-nav a {
     font-size: 28px;
     font-size: 1.75rem;
@@ -3410,7 +3410,7 @@ div#collapsibleNavbar ul.navbar-nav {
 
     
 }
-
+ */
 
 
 
