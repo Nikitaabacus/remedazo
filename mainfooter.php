@@ -67,6 +67,7 @@
 	  </div>
 	</div>
 </footer>
+
 <!-- For Styled alert boxes -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  <script src="<?php echo BASE_URL_ROOT; ?>js/sweetalert-dev.js"></script>
@@ -190,5 +191,6 @@ $(document).ready(function()
 </script>
 <!-- Footer end here -->
 <script src="//geodata.solutions/includes/countrystatecity.js"></script>
+</main>
 </body>
 </html>
