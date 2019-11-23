@@ -182,7 +182,7 @@ li {
 
 /***** Header style start here *****/
 
-.navbar-dark .navbar-nav .nav-link:hover {
+body .navbar-dark .navbar-nav .nav-link:hover {
     color: #59BCB6;
 }
 
