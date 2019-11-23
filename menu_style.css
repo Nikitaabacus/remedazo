@@ -580,7 +580,7 @@ ul.cd-secondary-nav {
   .cd-primary-nav .go-back, .cd-primary-nav .see-all {
     display: none;
   }
-  a.nav-link:hover ul.cd-secondary-nav.is-hidden {
+  li.nav-item.has-children:hover ul.cd-secondary-nav.is-hidden {
     opacity: 1;
   visibility: visible;
 }
