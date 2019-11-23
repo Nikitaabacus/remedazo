@@ -580,7 +580,11 @@ ul.cd-secondary-nav {
   .cd-primary-nav .go-back, .cd-primary-nav .see-all {
     display: none;
   }
-  .cd-primary-nav .cd-secondary-nav, .cd-primary-nav .cd-nav-gallery, .cd-primary-nav .cd-nav-icons, .cd-primary-nav .cd-secondary-nav.is-hidden:hover {
+  a.nav-link:hover ul.cd-secondary-nav.is-hidden {
+    opacity: 1;
+  visibility: visible;
+}
+  .cd-primary-nav .cd-secondary-nav, .cd-primary-nav .cd-nav-gallery, .cd-primary-nav .cd-nav-icons {
     /* dropdown menu style */
     position: absolute;
     top: 80px;
