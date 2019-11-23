@@ -75,9 +75,6 @@ ul.navbar-nav li.nav-item li.has-children a {
 }
 
 @media only screen and (min-width: 769px) {
-  .cd-main-header {
-    height: 95px;
-  }
   .cd-main-header::after {
     clear: both;
     content: "";
