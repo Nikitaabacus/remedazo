@@ -863,17 +863,17 @@ ul.cd-secondary-nav {
 .cd-primary-nav > .has-children > a::after {
     right: -20px;
 }
-  .cd-primary-nav > .has-children > a.selected::before, .cd-primary-nav > .has-children > a.selected::after {
+  .cd-primary-nav > .has-children > a.hover::before, .cd-primary-nav > .has-children > a.hover::after {
     width: 14px;
   }
-  .cd-primary-nav > .has-children > a.selected::before {
+  .cd-primary-nav > .has-children > a.hover::before {
     -webkit-transform: translateX(5px) rotate(-45deg);
     -moz-transform: translateX(5px) rotate(-45deg);
     -ms-transform: translateX(5px) rotate(-45deg);
     -o-transform: translateX(5px) rotate(-45deg);
     transform: translateX(5px) rotate(-45deg);
   }
-  .cd-primary-nav > .has-children > a.selected::after {
+  .cd-primary-nav > .has-children > a.hover::after {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
